@@ -226,7 +226,7 @@ Features include:
 
 Clone the repository:
 
-git clone https://github.com/yourusername/love-awaits.git
+git clone https://github.com/YimingHere04/love-surprise.git
 
 Navigate into the project:
 
@@ -282,7 +282,7 @@ Sometimes, it can simply make someone smile.
 
 ## 💖 Acknowledgments / 致谢
 
-- **Original Project / 原始项目**: Inspired by and based on the creative work by [@ft976](https://github.com/ft976/97).
+- **Project Owner**: YimingHere04 (https://github.com/YimingHere04)
 - **Enhancements & Customizations / 优化与重构**:
   - 🎵 Added floating glassmorphic audio toggle control for seamless music play/pause.
   - 🐛 Fixed React Typer Unicode & Emoji character-dropping animation bug.
