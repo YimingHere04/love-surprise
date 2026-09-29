@@ -350,8 +350,21 @@
         };
 
         const Typer = ({ text }) => {
-            const [d, sD] = useState("");
-            useEffect(() => { sD(""); let i = 0; const t = setInterval(() => { if (i < text.length) { sD(p => p + text.charAt(i)); i++; } else clearInterval(t); }, 30); return () => clearInterval(t); }, [text]);
+            const [d, setD] = useState("");
+            useEffect(() => {
+                const chars = Array.from(text || "");
+                setD("");
+                let i = 0;
+                const timer = setInterval(() => {
+                    if (i < chars.length) {
+                        i++;
+                        setD(chars.slice(0, i).join(''));
+                    } else {
+                        clearInterval(timer);
+                    }
+                }, 35);
+                return () => clearInterval(timer);
+            }, [text]);
             return <span>{d}</span>;
         };
 
