@@ -280,14 +280,23 @@ Sometimes, it can simply make someone smile.
 
 ---
 
+## 💖 Acknowledgments / 致谢
+
+- **Original Project / 原始项目**: Inspired by and based on the creative work by [@ft976](https://github.com/ft976/97).
+- **Enhancements & Customizations / 优化与重构**:
+  - 🎵 Added floating glassmorphic audio toggle control for seamless music play/pause.
+  - 🐛 Fixed React Typer Unicode & Emoji character-dropping animation bug.
+  - 🔄 Re-engineered SPA state reset for smooth replay without browser reloads.
+  - 🇨🇳 Full Chinese localization & modern 20s couple dialogue customization.
+
+---
+
 Built with ❤️ using
 
 - React
-- TypeScript
-- Vite
+- Three.js
 - Tailwind CSS
 - GSAP
-- Framer Motion
 - Vercel
 
 ---
