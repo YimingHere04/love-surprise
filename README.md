@@ -280,10 +280,10 @@ Sometimes, it can simply make someone smile.
 
 ---
 
-## 💖 Acknowledgments / 致谢
+## 💖 Acknowledgments
 
 - **Project Owner**: YimingHere04 (https://github.com/YimingHere04)
-- **Enhancements & Customizations / 优化与重构**:
+- **Enhancements & Customizations**:
   - 🎵 Added floating glassmorphic audio toggle control for seamless music play/pause.
   - 🐛 Fixed React Typer Unicode & Emoji character-dropping animation bug.
   - 🔄 Re-engineered SPA state reset for smooth replay without browser reloads.
