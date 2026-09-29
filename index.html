@@ -453,7 +453,12 @@
                 }
             };
             const no = () => setIdx(Math.min(idx + 1, MESSAGES.length - 1));
-            const reset = () => { localStorage.removeItem('my_love_ultimate'); window.location.reload(); };
+            const reset = () => {
+                localStorage.removeItem('my_love_ultimate');
+                setStarted(false);
+                setStatus('INIT');
+                setIdx(0);
+            };
             const handleNoHover = (e) => { if (idx >= 5) { const b = e.target; gsap.to(b, { x: (Math.random() - 0.5) * 350, y: (Math.random() - 0.5) * 350, duration: 0.3 }); } };
 
             const msg = MESSAGES[Math.min(idx, MESSAGES.length - 1)];
