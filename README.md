@@ -282,7 +282,7 @@ Sometimes, it can simply make someone smile.
 
 ## 💖 Acknowledgments
 
-- **Project Owner**: YimingHere04 (https://github.com/YimingHere04)
+- **Project Owner**: YimingHere04 (https://github.com/ft976/97) 
 - **Enhancements & Customizations**:
   - 🎵 Added floating glassmorphic audio toggle control for seamless music play/pause.
   - 🐛 Fixed React Typer Unicode & Emoji character-dropping animation bug.
